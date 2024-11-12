@@ -1,4 +1,5 @@
 **Project: Multilingual Sentiment-Driven Recommendation System**
+
 **Concept Overview**
 
 This project combines natural language processing (NLP) and recommender systems to provide personalized product or service recommendations based on user reviews in multiple languages. By integrating sentiment analysis with traditional recommendation techniques, the system enhances recommendation accuracy by factoring in user sentiments expressed in their reviews.
