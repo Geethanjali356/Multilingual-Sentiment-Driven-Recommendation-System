@@ -4,6 +4,7 @@
 This project combines natural language processing (NLP) and recommender systems to provide personalized product or service recommendations based on user reviews in multiple languages. By integrating sentiment analysis with traditional recommendation techniques, the system enhances recommendation accuracy by factoring in user sentiments expressed in their reviews.
 
 **Key Components**
+
 **Data Sources:**
 
 Sentiment Data: Multilingual user reviews with sentiment labels (positive/negative).
@@ -18,22 +19,27 @@ NLTK or spaCy for additional NLP tasks (e.g., stopword removal, language detecti
 PostgreSQL/MongoDB for storing processed data and model predictions.
 Flask/Django for building a web interface (optional).
 **Algorithms and Techniques**
+
 Text Preprocessing:
+
 Tokenization: Splits text into tokens.
 Padding: Ensures uniform input size.
 Language Detection and Translation (optional): For reviews in unsupported languages.
 Stopword Removal: Removes common, less meaningful words.
 Sentiment Analysis Model:
+
 LSTM (Long Short-Term Memory): Used for sequential data, particularly effective for text-based sentiment analysis.
 Embedding Layers: Maps words to dense vectors representing their semantic meaning.
 Binary Crossentropy Loss: Used for binary sentiment classification (positive/negative).
 Recommendation Model:
+
 Matrix Factorization:
 Collaborative Filtering: Learns latent factors for users and items to predict user preferences.
 Hybrid Model:
 Content-based Filtering: Combines sentiment scores from reviews.
 Neural Collaborative Filtering (NCF): Uses deep learning to model complex user-item interactions.
 **Challenges Faced**
+
 Multilingual Data Handling:
 
 Challenge: Processing reviews in multiple languages.
