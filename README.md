@@ -111,13 +111,17 @@ Suggesting content based on users’ sentiments towards similar posts.
 Explainable Recommendations:
 
 Provide users with insights into why items were recommended, e.g., “You liked Product X, and it has similar reviews to Product Y.”
+
 Real-time Adaptation:
 
 Continuously update user preferences based on the latest interactions and sentiments.
+
 Advanced NLP Models:
 
 Incorporate Transformer-based models (e.g., BERT, GPT) for enhanced multilingual sentiment analysis.
+
 Dynamic Embedding Updates:
 
 Update user and item embeddings dynamically as new data comes in.
+
 This project bridges the gap between user sentiment and recommendation quality, enhancing user satisfaction and engagement. Let me know if you'd like further guidance or specific implementations!
